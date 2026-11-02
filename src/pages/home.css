@@ -1,0 +1,84 @@
+.netflix{
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    /* width: 100vw; */
+        font-family: "Raleway", sans-serif;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    height: 100vh;
+    width: 5%;
+}
+.home-main{
+    display: block;
+    width: 95%;
+    padding-left: 20px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-top : 120px;
+    color: white;
+    background: linear-gradient(to top right,rgba(0,0,0,1.0),rgba(0,0,0,0.1)) , url("../assets/raju.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.hero p{
+    margin: 0;
+
+}
+.hero img{
+    width: 400px;
+    margin-bottom: 30px;
+}
+.hero-button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    
+}
+.playbutton{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 14px;
+    width: 130px;
+    border-radius: 30px;
+}
+.trailerbutton{
+    background-color: white;
+    color: #000000;
+    border: none;
+    font-size: 20px;
+    padding: 14px;
+    width: 150px;
+    border-radius: 30px;
+}
+.list{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    /* justify-content: ; */
+    /* height: 100vh; */
+    /* width: 5%; */
+}
+.list img{
+    height: 250px;
+}
+.movies h1{
+    color: white;
+    /* width: 150px; */
+    margin: 0;
+}
