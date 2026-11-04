@@ -6,13 +6,9 @@ import trendupIcon from"../assets/trend-up.svg"
 import plusIcon from "../assets/plus.svg"
 import shuffleIcon from"../assets/shuffle.svg"
 import aadutitle from "../assets/aadu-title.png"
-import onepiece from "../assets/onepiece.WEBP"
-import odiyan from "../assets/odiyan.webp"
-import oooo from "../assets/ooo.jpg"
-import kasaba from "../assets/kasaba.jpg"
-import rabi from "../assets/rabbi.jpg"
-import ok from "../assets/ok.gif"
 import'./home.css';
+import MovieCard from "../components/MovieCard"
+
 
 function Home() {
   return (
@@ -37,19 +33,13 @@ function Home() {
             </div>
 
         </div>
-        <div className="movies">
-        <h1>new this week</h1>
-        <div className="list">
-            <img src={onepiece} alt="" />
-            <img src={odiyan} alt="" />
-            <img src={oooo} alt="" />
-            <img src={kasaba} alt="" />
-            <img src={rabi} alt="" />
-            <img src={ok} alt="" />
-
-        </div>
+        <MovieCard Mtitle="New This Week"/>
+        <MovieCard Mtitle="Trending"/>
+        <MovieCard Mtitle="Recently Watched"/>
+        <MovieCard Mtitle="joor sanam"/>
+        <MovieCard Mtitle="kidilan"/>
         
-     </div>
+        
      </div>
      
     </div>
